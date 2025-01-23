@@ -1,0 +1,74 @@
+    /* Basic reset */
+    *{
+
+    
+        margin: 0;
+        padding: 0 ;
+        box-sizing: border-box;
+
+    }
+ 
+ html{
+    scroll-behavior: smooth;
+    width: 100%;
+    
+ }
+
+ body {
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(106, 105, 105);
+    line-height: 44px;
+    background-color: beige;
+    padding: 20px;
+    position: fixed;
+ }
+
+
+ header{
+    width: 2500px;
+    height: 150px;
+    background-color: #fbfbfb;
+ }
+
+ header div {
+    width: 150px;
+
+ }
+
+ /*main article */
+ p {
+   max-width: 65ch;
+ }
+   
+ nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+ }
+
+ footer{
+    padding: 20px;
+ }
+
+
+
+ .fancy-button{
+   background-color: rgb(255, 255, 255); 
+   padding: 20px 15px;
+   border-radius: 10px;
+   border: 2px solid #000000 ;
+   box-shadow: 2px 4px 10px #000; 
+   font-weight: bold;
+   color: blue;
+ }
+
+ 
+ .fancy-button:hover>
+   background-color blue>
+ 
+
+/* Styling the form */
+ input[type=text] [type=password], textarea {
+   display:block;
+   margin: bottom 20px;
+ }

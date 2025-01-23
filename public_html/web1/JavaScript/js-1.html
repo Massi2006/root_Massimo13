@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 1 </title>
+    <style>
+        body {
+            background: rgb(101, 103, 101);
+        }
+        main img{
+            width: 100%;
+        }
+    </style>
+    <h1>JavaScript Demo 1</h1>
+    <button id="loader" onclick="loadStuff()">Click Me</button>
+    <main id="content"></main>
+    <!-- <audio src="sounds/crowd-applause-236697.mp3" comtrols></audio> -->
+    
+   
+
+
+    <script>
+        alert("(Hello World :)");
+
+        console.log("Page loaded successfully")
+        
+        /**
+        * Variables
+        * @author Massimo
+        */
+
+        // dymaic variable "let"
+
+        let myName = "Massimo";
+
+        //comstamt variable "const"
+        const pi = 3.14159265;
+
+        // Math operators + = / *
+        console.log("PT x 7 = " + pi * 7);
+
+        //concatenate Strings (text data) 
+        //With other Strings or dynmac data with +
+
+        /**
+         * F u n c t i o n s
+         */
+        
+        function eatPizza() {
+            alert("Yummy 🍟 ")
+        }
+
+        eatPizza();
+        //New ES6 Function
+        let makePizza = () => {
+        console.log ("adding ingredients... and bake:")
+        };
+        
+        
+        const myContainer = document.getElementById("content");
+        let myAudio = new Audio("sounds/crowd-applause-236697.mp3");
+        
+       myAudio
+        
+        // myContainer.innerHTML = "<p>hello</p><img src="https://news.chiamarsibomber.com/storage/images/l/e/s/l-esultanza-di-yildiz-in-inter-juventus-16x9_desktop.jpg"/>'; 
+        function loadStuff() {
+            myAudio.play();
+            myContainer.innerHTML = '<p>hello<p><img src="https://news.chiamarsibomber.com/storage/images/l/e/s/l-esultanza-di-yildiz-in-inter-juventus-16x9_desktop.jpg"/>'; 
+        }
+        
+
+
+
+
+    </script>
+</body>
+</html>

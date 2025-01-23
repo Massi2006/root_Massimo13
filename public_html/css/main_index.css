@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    overflow-x: hidden;
+}
+
+h1{
+  
+    font-size: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.coiny-regular {
+        
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font: size 22px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+a {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    rotate: 0deg;
+    display: inline-block;
+    font-size: 35px;
+  
+    
+}
+
+
+
+

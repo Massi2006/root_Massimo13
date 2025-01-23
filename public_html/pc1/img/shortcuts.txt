@@ -1,0 +1,10 @@
+VS Code 
+
+Cmd + / = comment /uncomment code
+Cmd + S = Save document
+Shift + Opt/Alt + ↓ = Duplicate lines
+
+Browser:
+Cmd + Shift + R = Reload ( full relpad w, asset files)
+
+* Cmd = ctrl on PC

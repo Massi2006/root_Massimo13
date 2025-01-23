@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in;
+}
+.circle.square {
+    border-radius: unset;
+}
+
+.circle.square.make-round {
+    border-radius: 50%;
+}
+.circle.move-me{
+    transform: translateX(300px) rotate(13deg) scale(1.5);
+}
+/* .square{
+    border-radius: unset !important;
+} */

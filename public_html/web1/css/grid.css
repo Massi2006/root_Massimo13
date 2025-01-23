@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(220, 228, 212);
+}
+
+#container{
+    padding: 10%;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 2fr;*/
+   /* grid-template-columns: repeat(5,1fr); */ 
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+   gap: 30px;
+    max-width: 3000px;
+   /* limit width on Tvs.....*/
+    position: relative;
+    /* align in the middle */ 
+    left:400px
+    padding 0 
+    margin 0 auto;
+}
+
+.grid-item{
+    background-color: rgb(17, 203, 220);
+    min-height: 300px;
+}
+
+/* individual titles*/
+
+.grid-item.a{
+    background-color: rgb(195, 211, 195);
+}
+
+
+.grid-item.b{
+    background-color: rgb(19, 143, 19);
+}
+
+
+.grid-item.c{
+    background-color: rgb(239, 3, 18);
+}
+
+
+.grid-item.d{
+    background-color: rgb(4, 250, 4);
+}
+
+
+grid-item.e{
+    background-color: rgb(203, 254, 0);
+}
+
+
+grid-item.f{
+    background-color: rgb(213, 114, 21);
+}
+
+grid-item.g{
+    background-color: rgb(52, 61, 52);
+}
+
+.polaroid {
+box-shadow: 3px 12px 20px ;
+border: 20px solid hsl(0, 0%, 0%);
+border-bottom:60px solid white;
+}
+.grid-item img{
+    width: 100%;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+    #container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* Phone */
+@media screen and (max-width: 430px) {
+
+    /* body{
+        background-color: deeppink;
+    } */
+    
+    #container {
+        grid-template-columns: 1fr;
+    }
+}

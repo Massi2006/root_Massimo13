@@ -1,0 +1,20 @@
+/* Basic reset */
+* {
+
+
+    margin: 0;
+    padding: 30;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(98, 190, 5);
+}
+
+h1{
+    padding: 15px
+    
+ 
+}
+

@@ -1,0 +1,97 @@
+/* Basic reset */
+* {
+
+    
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+    text-align: center;
+   
+}
+body {
+    background-image: url(../img/bell-center\ ice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   color: rgb(243, 0, 0);
+   position: relative;
+   margin: 0 auto;
+   padding-top: 170px;
+   perspective: 400px;
+    
+    .coiny-regular {
+        
+        font-family: "Coiny", system-ui;
+        font-weight: 400;
+        font: size 22px;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+    }
+        #panel {
+            width: 100%;
+            height: 100%;
+            background-color: blue;
+            position: absolute;
+            z-index: 10;
+            top:0px;
+            left:0px;
+            padding-top: 5%;
+            /* align-content:center; */
+            color: aliceblue;
+            font-weight: bold;
+            transition: all 1.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+            /* 3d stuff */
+            transform-style: preserve-3d;
+        
+    }
+    
+    .slide-up{
+        transform: translateY(-90%) /*rotateX(70deg)*/;
+    }
+
+h1{
+    color: white;
+}
+h2 {
+    color: white;
+}
+
+p {
+    color: rgb(0, 0, 0);
+   font-weight: bold;
+   box-sizing: border-box;
+}
+
+
+h2, h3 {
+    margin-bottom: 30px;
+}
+.screenshots{
+    width: 80%;
+}
+#btn {
+
+    background-color: rgb(254, 4, 4);
+    padding: 10px 100px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 12px 12px 20px #0000006c;
+    margin-bottom: 200px;
+    rotate: 12deg;
+    font-size: 2em;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    bottom: 120px;
+   
+
+}
+#btn:hover {
+    background-color: pink;
+    rotate: 2deg;
+}}
+
+

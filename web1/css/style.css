@@ -1,0 +1,57 @@
+    /* Basic reset */
+    *{
+        margin: 0;
+        padding: 0 ;
+        box-sizing: border-box;
+
+    }
+ 
+ html{
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+ }
+
+ body {
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(106, 105, 105);
+    line-height: 44px;
+    background-color: beige;
+    padding: 20px;
+ }
+
+ main article {
+   display: grid;
+   gap: 1rem;
+   grid-template-columns: repeat(auto-fill,minmax (300px,1fr));
+ }
+
+ header{
+    width:100px;
+    height:200px;
+    background-color: green;
+ }
+
+ header div {
+    width: 150px;
+
+ }
+
+ /*main article */
+ p {
+    max-width: 65ch;
+ }
+
+
+ nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+ }
+
+
+ footer{
+    padding: 20px;
+ }
+
+ 

@@ -1,0 +1,26 @@
+/* Basic rest */
+*
+
+
+body {
+background-color: lightskyblue
+}
+h1 {
+text-align: center;
+font-family: fantasy;
+}
+h2 {
+text-align: left;
+font-family: inherit;
+font-size: 15pt;
+}
+h3 {
+font-size: 50px;
+text-align: center;
+font-family: inherit
+}
+
+
+figure {
+    text-align: center;
+}

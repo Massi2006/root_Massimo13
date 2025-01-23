@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web 1 - Project 2 - Presenting my Character</title>
+<link rel="stylesheet" href="css/project2.css">
+</head>
+<body>
+    <h1>Project 2 - Presenting my Character</h1>
+    <h1>-hockey player-</h1>
+    <h2>-This is Mr Habs-</h2>
+    <div id="panel">Click Here</div>
+    <img src="img/hockey.svg" width="600" alt="">
+    <p>-The design Process-</p>
+    <p>This is my character that I made for this project, it's a hockey player! His name is Mr Habs and his dream is to make it pro one day and 
+    play for the Montreal Canadians. His name was inspired by the teams nickname "the Habs"</p>
+    <img src="img/figma screenshot.PNG" width="700" alt="">
+    <p>This is my character's orignial sketch that I drew on paper and was scanned in</p>
+
+    
+    <br>
+
+    <button id="btn" onclick="top.location.href = '../project3/project3.html'">Play the Game!</button>
+
+
+    <script>
+        const panel = document.getElementById("panel");
+        const sound = new Audio("sound/hockeysound.mp3");
+        
+        panel.onclick = function() {
+            this.classList.toggle("slide-up");
+            sound.play();
+        }
+    </script>
+    
+
+</body>
+</html>
