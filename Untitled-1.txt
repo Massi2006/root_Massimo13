@@ -1,0 +1,2 @@
+git config --global user.email "2474613@edu.vaniercollege.qc.ca"
+git config --global user.name "Massi2006"
