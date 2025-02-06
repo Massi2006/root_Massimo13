@@ -50,6 +50,16 @@
     padding: 20px;
  }
 
+ .top-footer {
+   background-color: #b20cff; /* Footer background color */
+   color: white;
+   padding: 20px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000;
+}
+
 
 
  .fancy-button{
