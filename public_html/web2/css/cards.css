@@ -1,0 +1,91 @@
+/* CSS for cards we can add this anywhere we would like to use cards */
+#cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Single column by default */
+    gap: 1.44rem;
+    padding: 1.44rem 0.833rem;
+}
+
+#cards figure {
+    position: relative;
+}
+
+#cards a {
+    border: solid 1px rgb(240 240 240 / 0.25);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    text-decoration: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    /* Adding transition for hover */
+}
+
+#cards img {
+    width: 100%;
+    aspect-ratio: 16/6;
+    object-fit: cover;
+    object-position: center center;
+    position: absolute;
+    top: 0;
+}
+
+#cards section {
+    padding: 0.833rem;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    /* Adding transition for hover */
+}
+
+#cards h3 {
+    font-size: clamp(0.833rem, 1.6vw + 0.579rem, 1.728rem);
+    transition: opacity 0.3s ease;
+    /* Adding transition for opacity */
+}
+
+#cards p {
+    transition: opacity 0.3s ease;
+    /* Adding transition for opacity */
+}
+
+#cards .over {
+    position: relative;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    /* Adding transition */
+}
+
+/* Hover state */
+#cards a:hover {
+    transform: scale(1.05);
+    /* Slightly scale the card on hover */
+}
+
+#cards a:hover h3,
+#cards a:hover p {
+    opacity: 1;
+    /* Show full opacity */
+}
+
+#cards a:hover section {
+    transform: translateY(-10px);
+    /* Slightly move section up */
+}
+
+#cards a:hover .over {
+    transform: translateY(0);
+    /* Move down the card to reveal extra content */
+    opacity: 1;
+}
+
+/* Responsive styles for cards */
+@media screen and (min-width: 525px) {
+    #cards {
+        grid-template-columns: 1fr 1fr;
+        /* 2 columns layout for medium screens */
+    }
+}
+
+@media screen and (min-width: 925px) {
+    #cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        /* 3 columns layout for large screens */
+    }
+}
