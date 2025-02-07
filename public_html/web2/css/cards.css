@@ -12,19 +12,23 @@ body {
 
 .card-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    /* Align cards to the left */
     margin-top: 100px;
     gap: 20px;
     /* Adds spacing between the cards */
+    width: 100%;
+    /* Ensure container takes full width */
 }
 
 .card {
     width: 325px;
-    background-color: blue;
+    /* Fixed width for each card */
+    background-color: rgb(165, 165, 179);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    /* Adjusted box-shadow for readability */
+    /* Box shadow */
 }
 
 .card img {
@@ -55,4 +59,27 @@ body {
     border-radius: 4px;
     margin-top: 16px;
     color: darkgreen;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.card {
+    width: 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    
 }
