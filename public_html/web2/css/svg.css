@@ -1,0 +1,45 @@
+
+#svg img,
+#svg-external object {
+  transform: scale(1.5);
+  transform-origin: center; 
+}
+
+
+#svg img,
+#svg-external object {
+  transform: scale(1.5);
+  transform-origin: center; 
+}
+
+
+#svg {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+#svg img {
+  width: 200px; 
+  height: auto; 
+}
+
+#svg-external {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#svg-external object {
+  width: 200px; 
+  height: auto; 
+}
+
+
+
+
+
+
+
+
+
+
+  
