@@ -23,11 +23,12 @@ body {
     justify-content: center; 
     gap: 20px; 
     flex-wrap: wrap; 
-    padding: 0 70px; 
+    padding: 0 50px; 
+    margin: 20px;
 }
 
 .card {
-    width: 350px; 
+    width: 500px; 
     background-color: #ffffff;
     padding: 25px; 
     border-radius: 20px;
@@ -68,6 +69,7 @@ a:link {
 img {
     opacity: 0.25;
     transition: opacity 500ms;
+    aspect-ratio: 1.8;
 }
 
 img:hover {
@@ -102,4 +104,7 @@ a:link{
     transition: color 0.5s;
     }
 
-   
+
+
+ 
+        
