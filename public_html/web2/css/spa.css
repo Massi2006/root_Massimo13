@@ -166,7 +166,7 @@ header img {
 
 
 
-#history, #consistency, #winning, #players-managers, #club-values, #trophies {
+#history, #consistency, #winning, #players-managers, #club-values, #trophies, #conclusion {
     padding: 20px; 
     margin-bottom: 20px; 
     border-radius: 5px; 
@@ -174,7 +174,7 @@ header img {
 }
 
 
-#history h3, #consistency h3, #winning h3, #players-managers h3, #club-values h3, #trophies h3 {
+#history h3, #consistency h3, #winning h3, #players-managers h3, #club-values h3, #trophies h3, #conclusion h3 {
     font-size: 50px;
     color: #333;
 }
@@ -210,7 +210,9 @@ header img {
     font-size: 1.2rem; 
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 
   
