@@ -206,10 +206,6 @@ a:link {
 /* Phone */
 @media screen and (max-width: 430px) {
 
-    /* body{
-        background-color: deeppink;
-    } */
-    
     #container {
         grid-template-columns: 1fr;
     }
