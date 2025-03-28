@@ -1,18 +1,23 @@
-
 #svg img,
 #svg-external object {
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+#svg img:hover,
+#svg-external object:hover {
   transform: scale(1.5);
-  transform-origin: center; 
 }
 
 #svg {
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-start; 
 }
 
 #svg img {
-  width: 200px; 
-  height: auto; 
+  width: 325px;
+  height: auto;
+  transform: translateX(400px);  
 }
 
 #svg-external {
@@ -21,8 +26,8 @@
 }
 
 #svg-external object {
-  width: 200px; 
-  height: auto; 
+  width: 200px;
+  height: auto;
 }
 
 header {
@@ -42,6 +47,8 @@ h2 {
   margin-top: 70px;
   display: block;
 }
+
+
 
 
 

@@ -1,7 +1,7 @@
 /* transitons.css*/
 
 header {
-    background-color: #000000; /* Header background color (blue) */
+    background-color: #000000; 
     color: white;
     padding: 40px 0;
     text-align: center;
@@ -12,7 +12,7 @@ header {
 }
 
 h4 {
-    margin-bottom: 100px;  /* Adjust the value as needed */
+    margin-bottom: 100px;  
 }
 
 a:link{
@@ -29,21 +29,21 @@ opacity: 1;
 }
 
 img {
-    width: 500px; /* specific width */
-    height: 500px; /* specific height */
+    width: 500px; 
+    height: 500px; 
   }
 
   img {
-    width: 500px; /* Set a specific width */
-    height: 500px; /* Set a specific height to maintain the circle shape */
-    border-radius: 50%; /* This makes the image round */
-    object-fit: cover; /* Ensures the image covers the area without distorting */
+    width: 500px; 
+    height: 500px; 
+    border-radius: 50%; 
+    object-fit: cover; 
   }
 
   img {
-    padding: 20px; /* Adds 20px of padding around the image */
-    max-width: 100%; /* Ensures the image is responsive */
-    height: auto; /* Maintains the image's aspect ratio */
+    padding: 20px; 
+    max-width: 100%; 
+    height: auto; 
   }
 
   /* challenge */
@@ -71,7 +71,7 @@ opacity: 1;
   }
 
   h1 {
-    margin-top: 30px;  /* Moves the h1 tag 30px down */
+    margin-top: 30px;  
   }
 
   
